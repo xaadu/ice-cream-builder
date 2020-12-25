@@ -4,13 +4,13 @@ import classes from './Footer.module.css';
 export default function Footer() {
     return (
         <footer>
-            <div class={["container", classes.container].join(' ')}>
+            <div className={["container", classes.container].join(' ')}>
                 <div>
                     Copyright &copy;2020.
                 </div>
-                <div class="textRight">
-                    Built with <span class="red">&hearts;</span> by
-                    <a href="https://reactjs.org/docs/create-a-new-react-app.html">Create React App</a>
+                <div className="textRight">
+                    Built with <span className="red">&hearts;</span> by
+                    <a href="https://zayedabdullah.com/">Xayed</a>
                 </div>
             </div>
         </footer>
